@@ -31,15 +31,17 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 ## 🛠️ Tecnologias Utilizadas
 - **Linguagem:** Java 25
 - **IDE:** VS Code
-- - **Formatação:** `Locale.US` para padrões internacionais.
+- **Formatação:** `Locale.US` para padrões internacionais.
 
 ---
 
 🎯 Próximos Passos
+
 [ ] Estudar manipulação de arquivos em Java.
 
 [ ] Implementar tratamento de exceções (Try/Catch).
 
 [ ] Integrar com pequenos bancos de dados (JDBC).
 
-📫 Contato: https://www.linkedin.com/in/fsassumpcao/
+📫 Contato: [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fsassumpcao?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)](https://www.linkedin.com/in/fsassumpcao?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
