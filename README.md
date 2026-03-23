@@ -15,8 +15,9 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 - [x] **POO Básica:** Classes, Atributos, Métodos, membros estáticos e `toString`.
 - [x] **Encapsulamento:** Modificadores de acesso, construtores e a palavra-chave `this`.
 - [x] **Enumerações:** Definição de tipos constantes para estados de sistemas (`OrderStatus`, `WorkerLevel`).
-- [x] **Composição:** Relação entre objetos ("Tem-um") e manipulação de listas de objetos (`List<HourContract>`).
-- [x] **Data e Hora:** Uso das APIs modernas do Java (`LocalDate`, `DateTimeFormatter`).
+- [x] **Composição Avançada:** Relações "Tem-um" simples e multinível, além de manipulação de listas de objetos.
+- [x] **Data e Hora:** Uso das APIs modernas do Java (`LocalDate`, `LocalDateTime`, `DateTimeFormatter`).
+- [x] **Performance:** Uso de `StringBuilder` para montagem eficiente de Strings em métodos `toString`.
 - [ ] **Pilares Avançados:** Herança e Polimorfismo (Próximos passos).
 
 ---
@@ -25,16 +26,17 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 
 | Projeto | Descrição | Conceitos Aplicados |
 | :--- | :--- | :--- |
-| **Worker Contracts** | Sistema de cálculo de salário com base em contratos mensais. | **Composição**, Listas, Enums, LocalDate. |
-| **Order Management** | Representação de pedidos e status de compra. | **Enums**, Composição, Instanciação dinâmica. |
-| **Bank Account** | Simulador de transações bancárias. | Encapsulamento, Construtores. |
+| **E-commerce Order** | Sistema completo de pedidos com cliente, itens e produtos. | **Composição Multinível**, Listas, Enums. |
+| **Social Post** | Simulação de posts e comentários de uma rede social. | **StringBuilder**, Composição, LocalDateTime. |
+| **Worker Contracts** | Cálculo de salário com base em contratos e departamentos. | **Composição**, Listas, Enums, LocalDate. |
+| **Bank Account** | Simulador de transações bancárias. | Encapsulamento, Construtores, `this`. |
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 - **Linguagem:** Java 25 (OpenJDK)
 - **IDE:** VS Code
-- **Padrões:** `Locale.US` e ISO-8601 para tratamento de datas.
+- **Padrões:** `Locale.US`, ISO-8601 e Conventional Commits.
 
 ---
 
