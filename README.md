@@ -14,11 +14,10 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 - [x] **Fundamentos:** Entrada/Saída de dados (`Scanner`), Tipos Primitivos, Estruturas Condicionais e Repetitivas.
 - [x] **POO Básica:** Classes, Atributos, Métodos, membros estáticos e `toString`.
 - [x] **Encapsulamento:** Modificadores de acesso, construtores e a palavra-chave `this`.
-- [x] **Enumerações:** Definição de tipos constantes para estados de sistemas (`OrderStatus`, `WorkerLevel`).
 - [x] **Composição Avançada:** Relações "Tem-um" simples e multinível, além de manipulação de listas de objetos.
 - [x] **Data e Hora:** Uso das APIs modernas do Java (`LocalDate`, `LocalDateTime`, `DateTimeFormatter`).
 - [x] **Performance:** Uso de `StringBuilder` para montagem eficiente de Strings em métodos `toString`.
-- [ ] **Pilares Avançados:** Herança e Polimorfismo (Próximos passos).
+- [x] **Pilares Avançados:** Herança, Polimorfismo, Sobrescrita (`@Override`) e Casting (Up/Downcasting).
 
 ---
 
@@ -26,24 +25,25 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 
 | Projeto | Descrição | Conceitos Aplicados |
 | :--- | :--- | :--- |
+| **Product Catalog** | Sistema de etiquetas de preço para produtos comuns, usados e importados. | **Polimorfismo**, Herança, Sobrescrita, LocalDate. |
+| **Employee Payment** | Cálculo de folha de pagamento diferenciada para terceirizados. | **Herança**, Polimorfismo, Listas, Regras de Negócio. |
 | **E-commerce Order** | Sistema completo de pedidos com cliente, itens e produtos. | **Composição Multinível**, Listas, Enums. |
 | **Social Post** | Simulação de posts e comentários de uma rede social. | **StringBuilder**, Composição, LocalDateTime. |
 | **Worker Contracts** | Cálculo de salário com base em contratos e departamentos. | **Composição**, Listas, Enums, LocalDate. |
-| **Bank Account** | Simulador de transações bancárias. | Encapsulamento, Construtores, `this`. |
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 - **Linguagem:** Java 25 (OpenJDK)
 - **IDE:** VS Code
-- **Padrões:** `Locale.US`, ISO-8601 e Conventional Commits.
-
+- **Padrões:** `Locale.US`
 ---
 
 ## 🎯 Próximos Passos
 
-- [ ] Estudar **Herança e Polimorfismo** (Próximo grande pilar).
+- [ ] Estudar **Classes e Métodos Abstratos** (Abstract).
 - [ ] Implementar **Tratamento de Exceções** (Try/Catch) de forma personalizada.
+- [ ] Estudar **Interfaces** para garantir o desacoplamento do código.
 - [ ] Estudar manipulação de arquivos em Java (I/O).
 - [ ] Integrar com pequenos bancos de dados (JDBC).
 
