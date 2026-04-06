@@ -18,6 +18,8 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 - [x] **Data e Hora:** Uso das APIs modernas do Java (`LocalDate`, `LocalDateTime`, `DateTimeFormatter`).
 - [x] **Performance:** Uso de `StringBuilder` para montagem eficiente de Strings em métodos `toString`.
 - [x] **Pilares Avançados:** Herança, Polimorfismo, Sobrescrita (`@Override`) e Casting (Up/Downcasting).
+- [x] **Abstração:** Classes e Métodos Abstratos para definição de contratos obrigatórios.
+- [x] **Resiliência:** Tratamento de Exceções com blocos `try-catch` e análise de Call Stack.
 
 ---
 
@@ -25,11 +27,11 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 
 | Projeto | Descrição | Conceitos Aplicados |
 | :--- | :--- | :--- |
-| **Product Catalog** | Sistema de etiquetas de preço para produtos comuns, usados e importados. | **Polimorfismo**, Herança, Sobrescrita, LocalDate. |
-| **Employee Payment** | Cálculo de folha de pagamento diferenciada para terceirizados. | **Herança**, Polimorfismo, Listas, Regras de Negócio. |
-| **E-commerce Order** | Sistema completo de pedidos com cliente, itens e produtos. | **Composição Multinível**, Listas, Enums. |
-| **Social Post** | Simulação de posts e comentários de uma rede social. | **StringBuilder**, Composição, LocalDateTime. |
-| **Worker Contracts** | Cálculo de salário com base em contratos e departamentos. | **Composição**, Listas, Enums, LocalDate. |
+| **Tax Payer System** | Cálculo de imposto de renda para PF e PJ com regras distintas. | **Classes Abstratas**, Polimorfismo, Listas. |
+| **Shape** | Cálculo de áreas de diversas formas geométricas. | **Métodos Abstratos**, Enums, Polimorfismo. |
+| **TryCatch** | Demonstração de captura de erros e fluxo de pilha de chamadas. | **Try-Catch**, Stack Trace, Exceptions. |
+| **PriceTag System** | Sistema de etiquetas de preço para produtos comuns, usados e importados. | **Polimorfismo**, Herança, Sobrescrita, LocalDate. |
+| **Order System** | Sistema completo de pedidos com cliente, itens e produtos. | **Composição Multinível**, Listas, Enums. |
 
 ---
 
@@ -41,11 +43,11 @@ Até o momento, os tópicos abordados nos códigos deste repositório incluem:
 
 ## 🎯 Próximos Passos
 
-- [ ] Estudar **Classes e Métodos Abstratos** (Abstract).
-- [ ] Implementar **Tratamento de Exceções** (Try/Catch) de forma personalizada.
+- [ ] Criar **Exceções Personalizadas** para regras de negócio.
 - [ ] Estudar **Interfaces** para garantir o desacoplamento do código.
 - [ ] Estudar manipulação de arquivos em Java (I/O).
 - [ ] Integrar com pequenos bancos de dados (JDBC).
+- [ ] Explorar **Generics** e coleções avançadas.
 
 ---
 
